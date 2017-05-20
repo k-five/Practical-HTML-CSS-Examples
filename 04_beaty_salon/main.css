@@ -1,0 +1,159 @@
+
+div.background {
+  width: 65%;
+  height: 650px;
+  overflow: hidden;
+  margin: 35px auto auto auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+
+  font-family: 'Josefin Slab', serif;
+}
+div.stretch {
+    width: 100%;
+}
+
+div.container{
+    
+    margin: auto auto auto 5px;
+}
+div.container button{
+    background-color: #fee;
+    width: 250px;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    padding: 7px;
+    font-size: large;
+    letter-spacing: 3px;
+    transition: 1s;
+}
+/* no need
+div.container button:hover{
+    background-color: #aea;
+}
+*/
+div p{
+
+    width: 200px;
+    padding: 50px 0 0 20px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+div a{
+    width: 50px;
+    padding: 0 0 0 20px;
+    margin: 10px 0 0 10px;
+    display: block;
+    background-color: #eee;
+    text-decoration: none;
+    border-radius: 5px;
+}
+div a:hover{
+    background-color: #ee3;
+}
+div.R{
+    position: absolute;
+
+    width: 245px;
+    height: 40px;
+    margin-left: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+    text-indent: 20px;
+    letter-spacing: 3px;
+
+    top: 250px;
+    /* background-color: white; */
+    transition: 1s;
+    opacity: 0.0;
+}
+div.R:hover{
+    opacity: 1;
+    height: 390px;
+
+}
+div.S{
+    position: absolute;
+
+    width: 245px;
+    height: 40px;
+    margin-left: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+    top: 250px;
+    margin-left: 265px;
+
+    transition: 1s;
+    opacity: 0.0;
+}
+div.S:hover{
+    opacity: 1;
+    height: 390px;
+}
+div.A{
+    position: absolute;
+
+    width: 245px;
+    height: 40px;
+    margin-left: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+    top: 250px;
+    margin-left: 520px;
+
+    transition: 1s;
+    opacity: 0.0;
+}
+div.A:hover{
+    opacity: 1;
+    height: 390px;
+}
+
+div.O{
+    position: absolute;
+
+    width: 245px;
+    height: 40px;
+    margin-left: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+    top: 250px;
+    margin-left: 773px;
+
+    transition: 1s;
+    transform: 2s;
+    opacity: 0.0;
+}
+div.O:hover{
+    opacity: 1;
+    height: 390px;
+}
+img.products{
+    padding-left: 20px;
+    height: 50px;
+    transition: 0.5s;
+    opacity: 0.5
+}
+img.products:hover{
+    opacity: 1;
+}
+div.footer{
+    position: relative;
+    width: 1010px;
+    height: 30px;
+    margin-left: 7px;
+    background-color: #fee;
+    border-radius: 0 0 10px 10px;
+
+    top: 345px;
+
+    text-align: center; 
+    
+}
