@@ -9,4 +9,12 @@ Therefor, **none** of these examples have `js` code.
 Also, inside each directory you can find a screenshot of that page.
 
 Good luck.
+  
+```diff  
++ this will be highlighted in green  
+- this will be highlighted in red  
+```
 
+```html
+	Some text.
+```
