@@ -53,3 +53,7 @@ li{
 }
 
 ```
+
+screenshot:
+
+[screenshot](https://github.com/k-five/Practical-HTML-CSS-Examples/tree/master/06_horizontal_scroll-bar/06_page_screenshot)  
