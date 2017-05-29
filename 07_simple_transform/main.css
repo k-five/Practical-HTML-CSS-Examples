@@ -1,0 +1,49 @@
+.menu{
+    
+    width: 1040px;
+    margin: 20px 0 0 18%;
+    display: table;
+}
+button{
+    padding: 10px;
+    width: 148px;    
+}
+button:hover{
+    background-color: #0e0;
+}
+main{
+    width: 1000px;
+    height: 600px;
+    
+    margin: 30px 0 0 18%;
+
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    box-shadow: 0 4px 5pc gray;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.image{
+    width: 280px;
+    float: left;
+    padding: 20px;
+    opacity: .5;
+    transition: 1s;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px gray;
+    font-family: 'Josefin Slab', serif;
+    font-size: large;
+
+}
+.image:hover{
+    opacity: 1;
+    transform: scale(1.5,1.5);
+
+}
