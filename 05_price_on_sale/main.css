@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin:  0;
+}
+main{
+    font-family: 'Josefin Slab', serif;
+
+    width: 1000px;
+    height: 650px;
+
+    margin: 20px auto auto auto;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
+}
+main:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 1, 1, 0.3);
+}
+header{
+    box-shadow: 0 4px 2px grey;
+    border-radius: 20px 20px 0 0;
+
+    background-color: #aae;
+
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+}
+main header h1{
+    text-shadow: 2px 4px 8px black;
+}
+main div.all-button{
+    margin: 10px;
+
+}
+main button{
+    padding: 5px;
+    width: 240px;
+    text-decoration: none;
+    font-size: large;
+    word-spacing: 2px;
+    border: none;
+
+    border-radius: 5px 5px 0 0;
+
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
+    text-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
+}
+main button:hover{
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 255, 0.3);
+}
+
+main div.content{
+    margin: auto;
+    width: 97%;
+    height: 450px;
+    border-radius: 0 0 10px 10px;
+    overflow-y: scroll;
+    text-align: center; 
+}
+main div.content img{
+    width: 220px;
+    transition: 1s;
+    opacity: 0.3;
+
+}
+main div.content img:hover{
+    opacity: 1;
+}
+main div.A{
+    float: left;
+    width: 220px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
+
+}
+main div.A:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 1, 255, 0.3);
+}
+h3{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+h3:hover{
+    color: red;
+    opacity: 1;
+}
+
+div.copyright{
+    text-align: center;
+}
