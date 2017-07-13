@@ -1,0 +1,226 @@
+
+body{
+        font-family: 'Josefin Slab', serif;
+    background-color: #eee;
+    width: 1250px;
+}
+main{
+
+}
+div{
+   float: left;
+}
+img{
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    opacity: 0.6;
+    transition: 1s;
+}
+img:hover{
+    opacity: 1.0;
+    transform: rotate(360deg);
+    box-shadow: 4px 4px 20px gray;
+}
+.profile{
+    padding: 10px;
+    width: 300px;
+    height: 650px;
+    margin-left: 300px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 4px gray;
+    transition: 1s;
+}
+.profile:hover{
+    background-color: #fff;
+    box-shadow: 4px 4px 40px gray;
+}
+
+.reserve_space{
+    visibility: hidden;
+}
+
+.skill_bar{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: right;
+    margin-top: 5px;
+    transition: 1s;
+
+}
+.skill_bar:hover{
+    cursor: crosshair;
+    transform: scale(2);
+    background-color: #eee;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    background-color: #eee;
+    letter-spacing: 0px;
+    transition: 1s;
+
+}
+.title:hover{
+    letter-spacing: 3px;
+}
+
+.KU{
+    width: 100%;
+    background-color: #cec;
+    border-radius: 5px;
+}
+.FA{
+    width: 100%;
+    background-color: #cec;
+    border-radius: 5px;
+}
+.EN_US{
+    width: 60%;
+    background-color: #cec;
+    border-radius: 5px;
+}
+
+.CPP{
+    width: 70%;
+    background-color: #cdf;
+    border-radius: 5px;
+
+}
+
+.C{
+    width: 60%;
+    background-color: #cdf;
+    border-radius: 5px;
+}
+.D{
+    width: 50%;
+    background-color: #cdf;
+    border-radius: 5px;
+}
+
+
+
+.Perl{
+    width: 60%;
+    background-color: #cff;
+    border-radius: 5px; 
+}
+.Bash{
+    width: 50%;
+    background-color: #cff;
+    border-radius: 5px; 
+}
+.Batch{
+    width: 50%;
+    background-color: #cff;
+    border-radius: 5px; 
+}
+.PowerShell{
+    width: 20%;
+    background-color: #cff;
+    border-radius: 5px; 
+}
+
+.HTML{
+    width: 70%;
+    background-color: #ef3;
+    border-radius: 5px;    
+}
+.CSS{
+    width: 60%;
+    background-color: #ef3;
+    border-radius: 5px;  
+}
+.JavaScript{
+    width: 20%;
+    background-color: #ef3;
+    border-radius: 5px;  
+}
+/* miscellaneous */
+.T{
+    width: 100%;
+    background-color: #9e0;
+    border-radius: 5px; 
+}
+.FT{
+    width: 60%;
+    background-color: #9e0;
+    border-radius: 5px; 
+}
+.R{
+    width: 40%;
+    background-color: #9e0;
+    border-radius: 5px; 
+}
+.G{
+    width: 40%;
+    background-color: #9e0;
+    border-radius: 5px; 
+}
+/* sport */
+.Y{
+    width: 100%;
+    background-color: #9ee;
+    border-radius: 5px; 
+}
+.P{
+    width: 40%;
+    background-color: #9ee;
+    border-radius: 5px; 
+}
+
+
+
+
+.introduce{
+    width: 580px;
+    height: 380px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+
+    transition: 1s;
+    box-shadow: 0 4px 4px gray;
+}
+.introduce:hover{
+    background-color: #fff;
+    box-shadow: 4px 4px 40px gray;
+}
+
+.link{
+    width: 600px;
+    height: 250px;
+    margin: 20px auto auto 20px;
+    border-radius: 10px;
+    text-align: center;
+
+    transition: 1s;
+    box-shadow: 0 4px 4px gray;  
+}
+.link:hover{
+
+    background-color: #fff;
+    box-shadow: 4px 4px 40px gray;
+}
+.link img{
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.footer{
+    margin-left: 650px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    color: red;
+    transition: 1s;
+}
+.footer:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
