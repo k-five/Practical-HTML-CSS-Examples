@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Josefin Slab', serif;
+    /* background-color: #eee; */
+    font-size: xx-large;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+	display: flex;
+}
+.menu ul{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 250px;
+	padding: 10px 10px;
+	background-color: #eee;
+	border-right: 1px #fff solid;
+}
+.menu li a:hover{
+	background-color: #cff;
+}
+
+
+.content{
+	width: 1080px;
+	height: 620px;
+
+	margin: 10px auto;
+
+	box-shadow: 0 2px 4px gray;
+}
+li{
+
+
+}
+#hide{
+	display: none;
+	list-style-type: none;
+	
+}
+
+@media screen and ( max-width: 1100px ){
+	.menu li a{
+		width: 500px;
+		border-bottom: 1px #fff solid;
+	}
+	.menu li{
+		clear: left;
+	}
+
+	.content{
+		width: 515px;
+	}
+	#hide{
+		display: initial;
+	}
+}
