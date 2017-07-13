@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Josefin Slab', serif;
+    /* background-color: #eee; */
+    font-size: xx-large;
+    margin: 0px;
+    
+}
+
+div {
+	display: inline;
+}
+.drop-down a{
+	width: 200px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	background-color: #000;
+	border-bottom: 1px #f00 solid;
+	transition: .5s;
+}
+.list{
+	display: none;
+}
+a:hover{
+	background-color: #f00;
+}
+.list a:hover{
+	display: inline-block;	
+}
+.drop-down:hover .list{
+	display: inline-block;	
+}
+.break{
+	display: block;
+}
+#last-button a{
+	border-bottom: none;
+}
+#Hidden a{
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	background-color: #000;
+}

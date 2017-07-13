@@ -1,0 +1,91 @@
+
+body{
+    font-family: 'Josefin Slab', serif;
+    /* background-color: #eee; */
+    font-size: xx-large;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+
+}
+
+div {
+	display: inline;
+}
+.main{
+	margin-top: -30px;
+	position: fixed;
+}
+.drop-down a{
+	width: 300px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;	
+	list-style-type: none;
+	text-decoration: none;
+	background-color: #000;
+	border-bottom: 1px #f00 solid;
+	transition: .5s;
+	
+}
+.Ch-M {
+	cursor: crosshair;
+}
+.list{
+	display: none;
+}
+a:hover{
+	background-color: #f00;
+	/*border-radius: 0 50% 50% 0;*/
+}
+.list a{
+	width: 200px;
+	margin: -5px;
+	border-right: 1px #f00 solid;
+
+}
+.list a:last-child{
+	border-right: none;
+}
+
+.list a:hover{
+	display: inline-block;
+
+}
+.drop-down:hover .list{
+	z-index: 1;
+	display: inline-block;
+}
+#last-button a{
+	border-bottom: none;
+}
+#Hidden a{
+	color: #fff;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	background-color: #000;
+	border-radius: 0;
+}
+.paper{
+	position: relative;
+	display: block;
+    width: 79%;
+    height: 670px;
+    text-indent: 20px;
+    border-radius: 10px;
+	margin: 30px 0 0 320px;
+    border: 1px #000 solid;
+    box-shadow: 0px 2px 2px grey;
+    z-index: -1;
+    background-color: #fff;
+}
+
+.copyright{
+	display: inline;
+	position: fixed;
+	margin-left: 850px;
+	top: 650px;
+	font-size: large;
+
+}
