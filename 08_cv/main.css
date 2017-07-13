@@ -1,0 +1,267 @@
+.main{
+    width: 1000px;
+    height: 350px;
+
+    box-shadow: 0 4px 10px grey;
+    border-radius: 20px;
+    margin: 50px auto auto auto;
+
+    font-family: 'Josefin Slab', serif;
+    overflow-y: scroll;
+}
+.buttons{
+    position: fixed;
+    margin: 10px;
+    z-index: 1;
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    width: 137px;
+    padding: 10px;
+    font-size: smaller;
+    display: inline-block;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #eee;
+    box-shadow: 0 4px 4px gray;
+
+}
+.button:hover{
+    box-shadow: 0 4px 4px red;
+}
+/*
+button{
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+
+    border-radius: 5px;
+    text-decoration: none;
+    border-width: 0;
+    box-shadow: 0 4px 10px grey;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: #eee;
+    box-shadow: 0 4px 10px red;
+    cursor: pointer;
+}
+/*
+#Human:hover{
+    background-color: #bae;
+    cursor: pointer;
+}
+#Programming:hover{
+    background-color: red;
+}
+#Scripting:hover{
+    background-color: red;
+}
+#Markup:hover{
+    background-color: red;
+}
+#Miscellaneous:hover{
+    background-color: red;
+}
+#Sports:hover{
+    background-color: red;
+}
+*/
+
+#hr{
+    position: relative;
+    width: 80%;
+    top: 350px;
+    color: red;
+}
+#h3{
+
+    position: relative;
+    top: 340px;
+}
+.my_skill{
+    position: relative;
+    top: 60px;
+    
+    margin: 0 10px 0 10px;
+}
+.skill_bar{
+    width: 100%;
+    background-color: #eee;
+    border-radius: 5px;
+    text-align: right;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.Kurdish{
+    width: 98.8%;
+    background-color: #bae;
+    border-radius: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+
+    transition: 1s;
+}
+
+.Persian {
+    width: 98.8%;
+    background-color: #bae;
+    border-radius: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.English{
+    width: 60%;
+    background-color: #bae;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.CPP{
+    width: 80%;
+    background-color: #eab;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.C{
+    width: 60%;
+    background-color: #eab;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.D{
+    width: 50%;
+    background-color: #eab;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+
+.Perl{
+    width: 60%;
+    background-color: #af0;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.Bash{
+    width: 50%;
+    background-color: #af0;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold; 
+}
+.Batch{
+    width: 40%;
+    background-color: #af0;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.P_Shell{
+    width: 20%;
+    background-color: #af0;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+
+
+.HTML{
+    width: 70%;
+    background-color: #0ef;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.CSS{
+    width: 60%;
+    background-color: #0ef;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.JavaScript{
+    width: 10%;
+    background-color: #0ef;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+.Type{
+    width: 80%;
+    background-color: #F30;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.Regex{
+    width: 60%;
+    background-color: #F30;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.Git{
+    width: 40%;
+    background-color: #F30;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.Yoga{
+    width: 90%;
+    background-color: #0e2;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.Parkour{
+    width: 40%;
+    background-color: #0e2;
+    border-radius: 5px 0 0 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+.reserve_space{
+    visibility: hidden;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    box-shadow: 0 4px 6px gray;
+    border-radius: 50%;
+}
+img:hover{
+        box-shadow: 0 4px 6px red;
+}
+.logo{
+    margin: 50px 0 0 260px;
+    width: 70%;
+    /* border: 1px red solid; */
+
+    float: left;
+}
+.stackoverflow{
+
+
+}
